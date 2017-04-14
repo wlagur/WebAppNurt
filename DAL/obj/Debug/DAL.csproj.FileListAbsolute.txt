@@ -1,0 +1,8 @@
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAL\bin\Debug\DAL.dll
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAL\bin\Debug\DAL.pdb
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAL\obj\Debug\DAL.dll
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAL\obj\Debug\DAL.pdb
+C:\Users\Vlad\Documents\Visual Studio 2015\Projects\NutrWebApplication\DAL\bin\Debug\DAL.dll.config
+C:\Users\Vlad\Documents\Visual Studio 2015\Projects\NutrWebApplication\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Vlad\Documents\Visual Studio 2015\Projects\NutrWebApplication\DAL\bin\Debug\EntityFramework.xml

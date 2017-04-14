@@ -1,0 +1,20 @@
+﻿@using DAO;
+
+@model Students
+
+@{
+    Layout = null;
+    ViewBag.Title = "Students Page";
+}
+<script src="~/CustomScripts/base.jsx"></script>
+<script>
+     StudentsModel = {};
+     StudentsModel = @Html.Raw(Json.Encode(Model));
+</script>
+
+@Scripts.Render("~/bundles/react")
+@Scripts.Render("~/bundles/jquery")
+
+<div id="root"></div>
+
+@Scripts.Render("~/CustomScripts/StudentPage")

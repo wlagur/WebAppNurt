@@ -1,0 +1,20 @@
+﻿@using DAO;
+
+@model Dish
+
+@{
+    Layout = null;
+    ViewBag.Title = "Dishes Page";
+}
+<script src="~/CustomScripts/base.jsx"></script>
+<script>
+     DishesModel = {};
+     DishesModel = @Html.Raw(Json.Encode(Model));
+</script>
+
+@Scripts.Render("~/bundles/react")
+@Scripts.Render("~/bundles/jquery")
+
+<div id="root"></div>
+
+@Scripts.Render("~/CustomScripts/DishesPage")
