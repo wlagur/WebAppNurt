@@ -6,6 +6,7 @@
         //this.hello = this.hello.bind(this);
         this.state.namesOfDish = Array();
         this.state.selectedDish;
+        this.state.selectedDishes = Array();
     }
 
     getDishes() {
@@ -17,20 +18,27 @@
                     var nameOfDish = key.Name;
                     return nameOfDish;
                 });
+
+                self.state.selectedDish = namesOfDish[0];
                 self.setState({ namesOfDish: namesOfDish });
+
             }
         );
     }
 
 
-    changeSelectedDish(e)
-    {
+    changeSelectedDish(e) {
         var selectedDish = e.target.value;
         this.setState({ selectedDish: selectedDish });
     }
 
+    addDish() {
+        this.state.selectedDishes.push(this.state.selectedDish);
+        this.setState({ selectedDishes: this.state.selectedDishes });
+    }
+
     render() {
-        let studentsContainer =
+        let dishesContainer =
             <div>
             <select onChange={ (e) => this.changeSelectedDish(e) }>
 
@@ -41,12 +49,23 @@
                 }
             </select>
             </div>
-        //this.state.selectedDish = studentsContainer.props.children.props.children[0];
+        let selectedDishesContainer =
+            <div>
+            <ol>
+
+                {this.state.selectedDishes.map((namesOfDish, index) => {
+                    return (
+                        <li key={index }>{namesOfDish}</li>);
+                })
+                }
+            </ol>
+            </div>
         return (
             <div>
                 <h1 onClick={() =>this.getDishes() }>Hello, world!</h1>
-                <span>{this.state.selectedDish}</span>
-                {studentsContainer}
+                <h1 onClick={() =>this.addDish() }>Add dish</h1>
+                {dishesContainer}
+                {selectedDishesContainer}
             </div>
         );
     }
