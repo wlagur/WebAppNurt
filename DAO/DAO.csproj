@@ -74,53 +74,63 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BurDBModel.Context.cs">
+    <Compile Include="BurBDNewModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>BurDBModel.Context.tt</DependentUpon>
+      <DependentUpon>BurBDNewModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="BurDBModel.cs">
+    <Compile Include="BurBDNewModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>BurDBModel.tt</DependentUpon>
+      <DependentUpon>BurBDNewModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="BurDBModel.Designer.cs">
+    <Compile Include="BurBDNewModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>BurDBModel.edmx</DependentUpon>
+      <DependentUpon>BurBDNewModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="Dish.cs">
-      <DependentUpon>BurDBModel.tt</DependentUpon>
+      <DependentUpon>BurBDNewModel.tt</DependentUpon>
     </Compile>
     <Compile Include="DishIngredientList.cs">
-      <DependentUpon>BurDBModel.tt</DependentUpon>
+      <DependentUpon>BurBDNewModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Ingredient.cs">
-      <DependentUpon>BurDBModel.tt</DependentUpon>
+      <DependentUpon>BurBDNewModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Measurement.cs">
-      <DependentUpon>BurDBModel.tt</DependentUpon>
+      <DependentUpon>BurBDNewModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Role.cs">
-      <DependentUpon>BurDBModel.tt</DependentUpon>
+      <DependentUpon>BurBDNewModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Students.cs" />
     <Compile Include="Transaction.cs">
-      <DependentUpon>BurDBModel.tt</DependentUpon>
+      <DependentUpon>BurBDNewModel.tt</DependentUpon>
     </Compile>
     <Compile Include="TypeOfDish.cs">
-      <DependentUpon>BurDBModel.tt</DependentUpon>
+      <DependentUpon>BurBDNewModel.tt</DependentUpon>
     </Compile>
     <Compile Include="TypeOfTransaction.cs">
-      <DependentUpon>BurDBModel.tt</DependentUpon>
+      <DependentUpon>BurBDNewModel.tt</DependentUpon>
     </Compile>
     <Compile Include="User.cs">
-      <DependentUpon>BurDBModel.tt</DependentUpon>
+      <DependentUpon>BurBDNewModel.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BurBDNewModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BurBDNewModel.edmx</DependentUpon>
+      <LastGenOutput>BurBDNewModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="BurBDNewModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BurBDNewModel.edmx</DependentUpon>
+      <LastGenOutput>BurBDNewModel.cs</LastGenOutput>
+    </Content>
     <Content Include="BurDataBase.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -128,29 +138,17 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>BurDataBase.mdf</DependentUpon>
     </Content>
-    <Content Include="BurDBModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>BurDBModel.edmx</DependentUpon>
-      <LastGenOutput>BurDBModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="BurDBModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>BurDBModel.edmx</DependentUpon>
-      <LastGenOutput>BurDBModel.cs</LastGenOutput>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <EntityDeploy Include="BurDBModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>BurDBModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="BurDBModel.edmx.diagram">
-      <DependentUpon>BurDBModel.edmx</DependentUpon>
+    <EntityDeploy Include="BurBDNewModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>BurBDNewModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="BurBDNewModel.edmx.diagram">
+      <DependentUpon>BurBDNewModel.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>

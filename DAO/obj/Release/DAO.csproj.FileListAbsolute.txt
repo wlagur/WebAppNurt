@@ -1,0 +1,15 @@
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAO\bin\Release\BurDataBase.mdf
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAO\bin\Release\BurDataBase_log.ldf
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAO\bin\Release\DAO.dll.config
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAO\bin\Release\DAO.dll
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAO\bin\Release\DAO.pdb
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAO\bin\Release\EntityFramework.dll
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAO\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAO\bin\Release\EntityFramework.SqlServerCompact.dll
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAO\bin\Release\System.Data.SqlServerCe.dll
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAO\bin\Release\EntityFramework.xml
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAO\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAO\bin\Release\EntityFramework.SqlServerCompact.xml
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAO\obj\Release\DAO.dll
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAO\obj\Release\DAO.pdb
+C:\Users\Vlad\documents\visual studio 2015\Projects\NutrWebApplication\DAO\obj\Release\DAO.csprojResolveAssemblyReference.cache

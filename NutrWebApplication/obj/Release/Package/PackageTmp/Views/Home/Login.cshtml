@@ -1,0 +1,20 @@
+﻿
+@model NutrWebApplication.Models.LoginModel
+
+@{
+    Layout = null;
+    ViewBag.Title = "Login Page";
+}
+<script src="~/CustomScripts/base.jsx"></script>
+
+<script>
+     LoginModel = {};
+     LoginModel = @Html.Raw(Json.Encode(Model));
+</script>
+
+@Scripts.Render("~/bundles/react")
+@Scripts.Render("~/bundles/jquery")
+
+<div id="root"></div>
+
+@Scripts.Render("~/CustomScripts/LoginPage")

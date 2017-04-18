@@ -47,11 +47,16 @@ namespace NutrWebApplication
             bundles.Add(new BabelBundle("~/CustomScripts/StudentPage").Include(
             // Add your JSX files here 
                 "~/CustomScripts/student-page.jsx"
-            ));
+            )); 
 
             bundles.Add(new BabelBundle("~/CustomScripts/DishesPage").Include(
             // Add your JSX files here 
                 "~/CustomScripts/dish-page.jsx"
+            ));
+
+            bundles.Add(new BabelBundle("~/CustomScripts/LoginPage").Include(
+            // Add your JSX files here 
+                "~/CustomScripts/login-page.jsx"
             ));
 
             #endregion
